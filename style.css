@@ -1,0 +1,112 @@
+*{
+
+}
+h3{
+    color: peru;
+}
+/*p{
+    color: rgb(47, 79, 79);
+    font-size: 12px;
+    font-weight: 600;
+    font-style: red;
+    line-height: 10px;
+    word-break: break-all;
+}*/
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    opacity: 0.8;
+    filter: blur(2px);
+    
+}
+a{
+    color: brown;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid brown;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+a:hover{
+    background-color: brown;
+    color: white;
+    text-decoration:underline;
+}
+body{
+    background-color:red ;
+    background-image: url("./assets/alluarjun.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#idpara{
+    color: chartreuse;
+}
+h1,h2,h3,h4,a{
+    color: brown;
+}
+p{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 130px;
+
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-right-color: aliceblue;
+    border-bottom-color: blue;
+
+    border-top: 5px dotted red;
+    border-right: 5px springgreen;
+    border-left: 5px solid blanchedalmond;
+border-bottom: 5px dotted blueviolet;
+
+border-top-right-radius: 150px;
+border-top-left-radius: 250px;
+border-bottom-right-radius: 350px;
+border-bottom-left-radius: 450px;
+
+margin-top: 100px;
+margin-bottom: 200px;
+margin-left: 150px;
+margin-right: 250px;
+}
+.container{
+    background-color: hotpink;
+    border: 3px solid blueviolet;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.item{
+    background-color:hotpink;
+    padding: 20px;
+   font-size: 16px;
+   color: rgb(6, 3, 0);
+}
+.boxes{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.box{
+  height: 200px;
+  width: 200px;  
+}
+.box1{
+    background: linear-gradient(brown,beige)
+}
+.box2{
+    background: linear-gradient(pink,yellow);
+}
+.box3{
+    background: linear-gradient(violet,darkblue);
+}
+
+
+
+
